@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-DOM';
+import App from './component/App.jsx';
 
-ReactDOM.render('Hello from React!', document.getElementById('app'))
+ReactDOM.render(<App first={'Eugenia'} last={'Park'} />, document.getElementById('app'))
